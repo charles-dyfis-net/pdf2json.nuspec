@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- in vim, :set encoding=utf-8 fileencoding=utf-8 guifont=Lucida_Console -->
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pdf2json</id>
+    <version>0.68</version>
+    <packageSourceUrl>https://github.com/charles-dyfis-net/pdf2json.nuspec</packageSourceUrl>
+    <owners>Charles Duffy</owners> <!-- package maintainer -->
+
+    <title>pdf2json (Install)</title>
+    <authors>Erik Engstrom</authors>
+    <projectUrl>https://github.com/flexpaper/pdf2json</projectUrl>
+    <copyright>2015 Erik Engstrom et al</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/flexpaper/pdf2json</projectSourceUrl>
+    <tags>pdf2json admin</tags>
+    <summary>A conversion tool based on XPDF for generating JSON and XML summaries of PDF documents</summary>
+    <description>PDF2JSON is a conversion library based on XPDF (3.02) which can be used for high performance PDF page by page conversion to JSON and XML format. It also supports compressing data to minimize size. PDF2JSON is available for Windows and Linux.
+    
+This package installs to the default location from the upstream MSI (%PROGRAMFILES%\PDF2JSON).</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
